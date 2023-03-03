@@ -10,7 +10,7 @@ if __name__ == "__main__":
         port = value;
     laser.setlidaropt(ydlidar.LidarPropSerialPort, port);
     laser.setlidaropt(ydlidar.LidarPropSerialBaudrate, 115200);
-    laser.setlidaropt(ydlidar.LidarPropLidarType, ydlidar.TYPE_TOF);
+    laser.setlidaropt(ydlidar.LidarPropLidarType, ydlidar.TYPE_TRIANGLE);
     laser.setlidaropt(ydlidar.LidarPropDeviceType, ydlidar.YDLIDAR_TYPE_SERIAL);
     laser.setlidaropt(ydlidar.LidarPropScanFrequency, 10.0);
     laser.setlidaropt(ydlidar.LidarPropSampleRate, 20);
