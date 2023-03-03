@@ -13,7 +13,7 @@ if __name__ == "__main__":
     laser.setlidaropt(ydlidar.LidarPropLidarType, ydlidar.TYPE_TRIANGLE);
     laser.setlidaropt(ydlidar.LidarPropDeviceType, ydlidar.YDLIDAR_TYPE_SERIAL);
     laser.setlidaropt(ydlidar.LidarPropScanFrequency, 10.0);
-    laser.setlidaropt(ydlidar.LidarPropSampleRate, 20);
+    laser.setlidaropt(ydlidar.LidarPropSampleRate, 3);
     laser.setlidaropt(ydlidar.LidarPropSingleChannel, True);
 
     #This will initialize SDK and Lidar
